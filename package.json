@@ -1,0 +1,26 @@
+{
+  "name": "browserify-git-my-version",
+  "version": "1.0.0",
+  "description": "Browserify transform to replace placeholder with your package version - git hash (1.0.0-1dde980)",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify ./test-file/index.js -t ./index.js --bare"
+  },
+  "keywords": [
+    "browserify",
+    "transform",
+    "browserify-transform",
+    "version",
+    "git"
+  ],
+  "author": "Leland Cope @lelandcope",
+  "license": "MIT",
+  "dependencies": {
+    "find-root": "^1.0.0",
+    "git-rev": "^0.2.1",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1"
+  }
+}
