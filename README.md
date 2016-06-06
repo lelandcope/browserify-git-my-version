@@ -1,0 +1,1 @@
+browserify-git-my-version
