@@ -1,6 +1,6 @@
 # browserify-git-my-version
 
-Browserify transform to replace __GIT_MY_VERSION__ with your package version - git hash (1.0.0-1dde980)
+Browserify transform to replace `__GIT_MY_VERSION__` with your package version - git hash (1.0.0-1dde980)
 
 ---
 
