@@ -24,6 +24,8 @@ Browserify transform to replace `__GIT_MY_VERSION__` with your package version -
 
 ## Test
 
-    npm test
+    cd working_directory
 
-NOTE: This test doesnt run through a test suite. It will just run `browserify ./test-file/index.js -t ./index.js --bare` so you can see the output in the commandline. In the future I would like to write a real test.
+    npm i
+
+    npm test

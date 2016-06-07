@@ -4,7 +4,7 @@
   "description": "Browserify transform to replace `__GIT_MY_VERSION__` with your package version - git hash (1.0.0-1dde980)",
   "main": "index.js",
   "scripts": {
-    "test": "browserify ./test-file/index.js -t ./index.js --bare"
+    "test": "mocha tests/*.mocha.js"
   },
   "keywords": [
     "browserify",
@@ -25,6 +25,8 @@
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "browserify": "^13.0.1"
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "streamtest": "^1.2.2"
   }
 }
