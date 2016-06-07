@@ -1,6 +1,6 @@
 {
   "name": "browserify-git-my-version",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Browserify transform to replace `__GIT_MY_VERSION__` with your package version - git hash (1.0.0-1dde980)",
   "main": "index.js",
   "scripts": {
